@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
+    <body>
+        {% include header.html %}
+        <div class="hero">
+            <div class="wrapper">
+                <img src="https://scontent-mxp1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/12039412_1689613454603322_7662266001094712176_n.png?oh=396102be46f03409d354a6c527485a03&oe=566690C1" alt="">
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </div>
+        {% include footer.html %}
+    </body>
 
 </html>
