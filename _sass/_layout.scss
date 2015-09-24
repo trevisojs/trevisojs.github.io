@@ -2,24 +2,30 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
     position: relative;
+    padding: 10px 0;
+    background: $brand-color-secondary;
+    .wrapper{
+        display: flex;
+    }
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
+    width: 50px;
+    height: 50px;
+    background: url('https://scontent-mxp1-1.xx.fbcdn.net/hphotos-xft1/t31.0-8/11312745_1656228261275175_2823191614481232181_o.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    h1{
+        position: absolute;
+        margin: 0;
+        color: #fff;
+        font-weight: bold;
+        left: 140%;
+        width: 200px;
+        line-height: 50px;
     }
 }
 
