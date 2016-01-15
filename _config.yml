@@ -1,6 +1,6 @@
 # Site settings
 title: Treviso JS
-email: your-email@domain.com
+email:
 description: > # this means to ignore newlines until "baseurl:"
   Benvenuti in Treviso JS! I nostri incontri del Mercoledì sera hanno lo scopo di scoprire JS con un approccio "hands-on".
 baseurl: "" # the subpath of your site, e.g. /blog/

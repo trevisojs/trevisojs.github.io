@@ -2,4 +2,43 @@
     background: darken($brand-color-secondary, 10);
     display: block;
     overflow: hidden;
+    position: relative;
+}
+
+.hero-background{
+    position: relative;
+    height: 0;
+    padding-bottom: 42.6%;
+    background: url(/img/treviso-js-background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hero-description{
+    display: inline-block;
+    color: #fff;
+    text-align: right;
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    a{
+        color: #fff;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    h1{
+        font-weight: bold;
+        font-size: 40px;
+        font-size: 7vw;
+        margin-bottom: 0px;
+        @include media-query($on-palm) {
+            font-size: 40px;
+        }
+    }
+    h2{
+        font-size: 4.5vw;
+        @include media-query($on-palm) {
+            font-size: 30px;
+        }
+    }
 }
